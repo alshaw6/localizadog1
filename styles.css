@@ -1,7 +1,8 @@
 body, html{
     height: 100%;
     margin: 0;
-    font-size: 16px;
+    padding: 0;
+    font-size: 18px;
     font-family: 'Merienda One', cursive;
     font-weight: 400;
     line-height: 1.8em;
@@ -9,19 +10,21 @@ body, html{
 }
 
 .navbar{
-    width: 80%;
-    height: 100px;
+    width: 100%;
+    height: 60px;
+    background: #0e2b3a;
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-    position: absolute;
-    font-family: 'Merienda One', cursive;
+    position: relative;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 .navbar .navbar_item ul{
     display: flex;
     position: relative;
-    right: 65%;
+    left: 80%;
+    
 }
 
 .navbar .navbar_item ul li{
@@ -32,15 +35,15 @@ body, html{
 
 .navbar .navbar_item ul li a{
     text-decoration: none;
-    color: rgb(247, 244, 243);
-    font-size: 20px;
+    color: #ff9800;
+    font-size: 30px;
 
 
 }
 
 .pimg1{
     background-image: url('images/catdoglocalizagod.jpg');
-    min-height: 100%;
+    min-height: 85%;
 }
 
 .section{
@@ -57,48 +60,77 @@ h2{
     color: orange;
 }
 
+h3{
+    color: orange;
+    font-size: 27px;
+}
+
 .ptext{
     position: absolute;
-    top: 20%;
-    width: 100%;
+    top: 3%;
+    width: 25%;
     text-align: center;
-    color:#FFC312;
-    font-size: 50px;
-    letter-spacing: 8px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
     text-transform: uppercase;
 }
 
 .box{
     width: 85%;
-    height: 400px;
-    border: 3px solid orangered;
+    height: 200px;
+    border: 3px solid #ff9800;
     margin: auto;
     padding: 30px;
+    background: #102f3f;
 }
 
-.column{
-    width: 7%;
-    display: grid;
-
+.box select{
+    background: #ff9800;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    width: 500px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 5px 25px rgb(0,0,0,.5);
+    outline: none;
 }
 
-.row{
-    display: flex;
-    justify-content: space-evenly;
-
+ .form-control{
+    background: #ff9800;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    width: 490px;
+    height: 43px;
+    border: none;
+    box-shadow: 0 5px 25px rgb(0,0,0,.5);
+    outline: none;
 }
 
-.column1{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.btn{
+    background: #3dc1d3;
+    font-size: 20px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 5px 25px rgb(0,0,0,.5);
+    outline: none;
 }
 
-.column2{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.btn{
+    position: relative;
+    top: 13px;
+    cursor: pointer;
 }
+
+.selectors{
+    text-align: center;
+}
+
+
 
 .maps{
     display: flex;
@@ -114,9 +146,128 @@ h2{
 
 }
 
-footer{
+.footer{
     width: 100%;
-    text-align: center;
-    background: orange;
+    background: #041f2c;
+    display: block;
+}
+
+.inner-footer{
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.footer-items{
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+   
+}
+
+h1{
     padding: 10px 0;
- }
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-items p{
+    color: grey;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+h2{
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: lighter; 
+    text-transform: uppercase;
+}
+
+.border{
+    height: 2px;
+    width: 40px;
+    background: #ff9800;
+}
+
+ul{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    padding: 5px;
+
+}
+
+ul a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    transition: 0.3s;
+  
+}
+
+ul a:hover {
+    color: #ff9800;
+}
+
+ul li{
+    margin: 10px 0;
+    height: 25px;
+    
+}
+
+li i{
+    margin-right: 20px;
+}
+
+.social-media{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.social-media a{
+    text-decoration: none;
+    
+}
+
+.social-media i{
+    height: 15px;
+    width: 15px;
+    margin: 20px 5px;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    transition: 0.3s;
+}
+
+.social-media i:hover{
+    background: grey;
+}
+
+.footer-bottom{
+    padding: 10px;
+    background: #3d545f;
+    color: white;
+    font-size: 12px;
+}
+
+@media screen and (max-width:1085px) {
+    .footer-items {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .footer-items {
+        width: 10 0%;
+    }
+}

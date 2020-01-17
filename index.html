@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lakki+Reddy|Merienda+One|Poppins&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
 
     <title>localidaDog</title>
 </head>
@@ -27,14 +30,14 @@
         </div>
 
         <div class="ptext">
-            <span class="border">
+            <span class="border1">
                 localidaDog
             </span>
         </div>
     </div>
 
     <section class="section section-light">
-        <h2>Como funciona</h2>
+        <h3>Como funciona</h3>
         <p>
             A LocalizaCão conta com a ajuda de toda comunidade para reunir tutores com animais perdidos ou abandonados.
             Confira no mapa!
@@ -44,67 +47,53 @@
 
     <div class="box">
 
-        <div class="row">
-
-            <div class="column">
-                <h3>Achados</h3>
-                <div class="column1">
-
-                    <img src="images/achado1 copy.jpg" style="width:150%">
-                </div>
-                <div class="column1">
-
-                    <img src="images/achado2 copy.jpg" style="width:150%">
-                </div>
-                <div class="column1">
-
-                    <img src="images/achado3 copy.jpg" style="width:150%">
-                </div>
-                <div class="column1">
-
-                    <img src="images/achado4 copy.jpg" style="width:150%">
-                </div>
-                <div class="column1">
-
-                    <img src="images/achado5 copy.jpg" style="width:150%">
-                </div>
-                <div class="column1">
-
-                    <img src="images/achado6 copy.jpg" style="width:150%">
-                </div>
-
-            </div>
-
-
-
-            <div class="column">
-                <h3>Perdidos</h3>
-                <div class="column2">
-                    <img src="images/perdido1 copy.jpg" style="width: 150%;">
-                </div>
-                <div class="column2">
-                    <img src="images/perdido2 copy.jpg" style="width: 150%;">
-                </div>
-                <div class="column2">
-                    <img src="images/perdido3 copy.jpg" style="width: 150%;">
-                </div>
-                <div class="column2">
-                    <img src="images/perdido4 copy.jpg" style="width: 150%;">
-                </div>
-                <div class="column2">
-                    <img src="images/perdido5 copy.jpg" style="width: 150%;">
-                </div>
-                <div class="column2">
-                    <img src="images/perdido6 copy.jpg" style="width: 150%;">
-                </div>
-
-            </div>
-
-        </div>
+    <div class="selectors">
+        
+        <select>
+            <option>animal</option>
+            <option>cachorro</option>
+            <option>gato</option>
+            
+        </select>
+        
+        <select>
+            <option>tamanho</option>
+            <option>grande</option>
+            <option>medio</option>
+            <option>pequeno</option>
+            
+            
+        </select>
+        
+        <select>
+            <option>achados ou perdidos</option>
+            <option>achados</option>
+            <option>perdidos</option>
+        </select>
+        
+        <select>
+            <option>estado</option>
+            <option>sao paulo</option>
+            <option>parana</option>
+            
+        </select>
+        
+        <select>
+            <option>cidade</option>
+            <option>sao paulo</option>
+            <option>curitiba</option>
+            
+        </select>
+        
+        <input class="form-control" placeholder="nome do bichinho? Digite aqui." type="text">
+        
+        <input class="btn" type="submit" value="procurar"></input>
+    </div>
+       
     </div>
 
     <section class="section section-light">
-        <h2>Mapas</h2>
+        <h3>Mapas</h3>
         <p>
 
             Se você precisa de ajuda para encontrar um animal, um tutor ou apenas gostaria de ajudar. É muito importante
@@ -118,35 +107,8 @@
 
     </div>
 
-    <div class="selector">
 
-        <form action="">
-
-            <select class="btn1" name="Cachorros_gatos">
-                <option value="Cachorro">Cachorro</option>
-                <option value="Gato">Gato</option>
-            </select>
-
-
-
-        </form>
-
-    </div>
-
-    <div class="selector">
-
-        <form action="">
-
-            <select class="btn2" name="Macho">
-                <option value="Macho">Macho</option>
-                <option value="Femea">Femea</option>
-            </select>
-
-
-
-        </form>
-
-    </div>
+    
 
     <section class="section section-light">
         <p>
@@ -161,9 +123,62 @@
         </p>
     </section>
 
-    <footer>
-        localizaDog @ 2019
-    </footer>
+     <div class="footer">
+         <div class="inner-footer">
+
+            <div class="footer-items">
+                <h1>localizadog</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, ab.</p>
+            </div>
+
+            <div class="footer-items">
+                    <h2>Adotar</h2>
+                    <div class="border"></div>
+                    <ul>
+                        <a href="">Adocao</a>
+                        <a href="">Procurar</a>
+                        <a href="">Casa para bichinho</a>
+                        
+
+                    </ul>
+            </div>
+
+            <div class="footer-items">
+                    <h2>another</h2>
+                    <div class="border"></div>
+                    <ul>
+                        <a href="">home</a>
+                        <a href="">home</a>
+                        <a href="">home</a>
+                        <a href="">home</a>
+                        <a href="">home</a>
+
+                    </ul>
+            </div>
+
+            <div class="footer-items">
+                    <h2>contato</h2>
+                    <div class="border"></div>
+                    <ul>
+                     <li><i class="fa fa-map-marker" aria-hidden="true"></i> 4455 av interlagos</li>
+                     <li><i class="fa fa-phone" aria-hidden="true"></i> 11- 997979981</li>
+                     <li><i class="fa fa-envelope" aria-hidden="true"></i> support@gmail.com</li>
+
+                    </ul>
+                    <div class="social-media">
+                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+
+                    </div>
+            </div>
+
+         </div>
+         <div class="footer-bottom">
+             copyright &copy; localizadog 2020. all rights reserved.
+         </div>
+     </div>
 
 </body>
 
