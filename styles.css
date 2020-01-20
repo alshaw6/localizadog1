@@ -43,6 +43,7 @@ body, html{
 
 .pimg1{
     background-image: url('images/catdoglocalizagod.jpg');
+    background-size: cover;
     min-height: 85%;
 }
 
