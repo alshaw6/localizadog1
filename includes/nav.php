@@ -4,7 +4,7 @@
         <img src="images/logo.jpg" alt="Localizacão">
       </div>
       
-    <div class="container">
+
       
       <!-- Menu Hamburguer -->
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Menu de navegação">
@@ -14,6 +14,7 @@
       <!-- Configurar melhor letra do menu hamburguer !!!!!!-->
 
       <!-- Menu Normal -->  
+      <div class="container">
       <div class="collapse navbar-collapse mt-2" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
@@ -31,10 +32,10 @@
         </ul>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="button btn-secondary font-weight-bold text-primary rounded p-2 mx-2" href="index.php" role="button">Login</a>
+            <a class="button btn-secondary font-weight-bold text-primary rounded p-2 mx-2" href="#" role="button">Login</a>
           </li>
           <li class="nav-item">
-          <a class="button btn-secondary font-weight-bold text-primary rounded p-2" href="index.php" role="button">Cadastro</a>          </li>
+          <a class="button btn-secondary font-weight-bold text-primary rounded p-2" href="#" role="button">Cadastro</a>          </li>
         </ul>
         
 
